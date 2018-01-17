@@ -45,6 +45,7 @@
     
     vertical-align: middle;
     cursor: default;
+    overflow: hidden;
     font-family: sans-serif-medium;
     font-size: 14px;
     font-weight: 600;
