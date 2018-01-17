@@ -55,7 +55,7 @@
        -moz-user-select: none;
         -ms-user-select: none;
             user-select: none;
-    background-color: white;
+    background-color: black;
     color: #0078D7;
     border: 1px solid #B2E0FF;
   }
