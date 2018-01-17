@@ -42,14 +42,11 @@
   }
   
   .ac-pushButton {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    text-align: center;
     
     vertical-align: middle;
     cursor: default;
     font-family: sans-serif-medium;
-    font-size: 10px;
+    font-size: 14px;
     font-weight: 600;
     padding: 3px 10px 4px 10px;
     -webkit-user-select: none;
