@@ -66,6 +66,12 @@
     border: 1px solid #0078D7;
   }
   
+  .ac-pushButton:disable {
+    background-color: #464B93;
+    color: white;
+    border: 1px solid #464B93;
+  }
+
   .ac-pushButton:active {
     background-color: #464B93;
     color: white;
