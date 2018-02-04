@@ -20,11 +20,11 @@
   <Description DefaultValue="testing mobile-addin"/>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <IconUrl DefaultValue="https://raw.githubusercontent.com/kapilgpt159/kapilgpt159.github.io/master/mobile-addin/assets/icon-32.png" />
-  <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/kapilgpt159/kapilgpt159.github.io/master/mobile-addin/assets/hi-res-icon.png"/>
+  <IconUrl DefaultValue="https://kapilgpt159.github.io/mobile-addin/assets/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="https://kapilgpt159.github.io/mobile-addin/assets/hi-res-icon.png"/>
 
   <!--If you plan to submit this add-in to the Office Store, uncomment the SupportUrl element below-->
-  <SupportUrl DefaultValue="https://localhost:3000" />
+  <SupportUrl DefaultValue="https://kapilgpt159.github.io" />
 
   <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
   <AppDomains>
@@ -45,7 +45,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:3000/index.html"/>
+        <SourceLocation DefaultValue="https://kapilgpt159.github.io/mobile-addin/index.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -105,13 +105,13 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://raw.githubusercontent.com/kapilgpt159/kapilgpt159.github.io/master/mobile-addin/assets/icon-16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://raw.githubusercontent.com/kapilgpt159/kapilgpt159.github.io/master/mobile-addin/assets/icon-32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://raw.githubusercontent.com/kapilgpt159/kapilgpt159.github.io/master/mobile-addin/assets/icon-80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://kapilgpt159.github.io/mobile-addin/assets/icon-16.png"/>
+        <bt:Image id="icon32" DefaultValue="https://kapilgpt159.github.io/mobile-addin/assets/icon-32.png"/>
+        <bt:Image id="icon80" DefaultValue="https://kapilgpt159.github.io/mobile-addin/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://raw.githubusercontent.com/kapilgpt159/kapilgpt159.github.io/master/mobile-addin/function-file/function-file.html"/>
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://raw.githubusercontent.com/kapilgpt159/kapilgpt159.github.io/master/mobile-addin/index.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://kapilgpt159.github.io/mobile-addin/function-file/function-file.html"/>
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://kapilgpt159.github.io/mobile-addin/index.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
